@@ -1,6 +1,0 @@
-#!python
-cubit.cmd('set node constraint on')
-cubit.cmd('import mesh geometry "/home/waxmrl/projects/moose/modules/tensor_mechanics/tests/2D_geometries/2D-RZ_mesh.e" block all use nodeset sideset feature_angle 135.00 linear merge ')
-cubit.cmd('list Block 1')
-cubit.cmd('reset')
-cubit.cmd('import mesh geometry "/home/waxmrl/projects/moose/modules/tensor_mechanics/tests/j2_plasticity/new_pre-branchTM/necking_quad4.e" block all use nodeset sideset feature_angle 135.00 linear merge ')
